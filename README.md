@@ -1,6 +1,33 @@
 # EcoQuery
 The project aims to enhance sustainability by reducing the computational load of large language models (LLMs) through vector-based similarity searches, optimizing efficiency without compromising user customization.
 
+
+This is a Next.js project bootstrapped with create-next-app.
+
+Getting Started
+First, run the development server:
+
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+Open http://localhost:3000 with your browser to see the result.
+
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
+
+This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
+
+Learn More
+To learn more about Next.js, take a look at the following resources:
+
+Next.js Documentation - learn about Next.js features and API.
+Learn Next.js - an interactive Next.js tutorial.
+You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+
+
 Inspiration:
 
 Sustainability is one of the core pillars of modern progress. We wanted to address this challenge by thinking about how we could allow for substantial improvement in sustainability by optimizing an existing system. That's why we landed on LLMs: their meteoric rise in popularity has changed the way millions of people search for and learn information. That being said, LLMs are extremely inefficientwhen it comes to the compute required for inference. With hundreds of millions of people relying on them for day-to-day searches, it is evident that we have reached a scale where sustainability needs to be carefully considered. We asked ourselves, how can we make LLMs more sustainable? Can we quantify that cost so users can understand how many resources they use/save? The key to the idea is the fact that we wanted to propose a way to dramatically improve sustainability with almost zero-effort required from the user's side. These are the principles that make our proposal both practical and most impactful.
