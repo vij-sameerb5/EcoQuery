@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+@font-face {
+  font-family: "MonoSemiBold";
+  src: url("../app/fonts/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-SemiBold.woff2");
+}
+@font-face {
+  font-family: "MonoReg";
+  src: url("../app/fonts/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Regular.woff2");
+}
+
+body {
+  color: white;
+  background: "text-dark";
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
