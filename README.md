@@ -1,6 +1,7 @@
 # EcoQuery
 
 https://yhack24.vercel.app/
+<img width="1707" alt="Screenshot 2024-10-22 at 12 24 25 PM" src="https://github.com/user-attachments/assets/a8c61014-4bd1-49e9-9e72-dfa0f8dfbd5a">
 
 The project aims to enhance sustainability by reducing the computational load of large language models (LLMs) through vector-based similarity searches, optimizing efficiency without compromising user customization.
 
